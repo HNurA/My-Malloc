@@ -1,0 +1,11 @@
+Strateji seçimi projenin gereksinimlerine ve performans hedeflerine bağlı olarak değişebilir. Bu stratejilerin performansını değerlendirirken, external fragmentation (harici parçalanma) önemli bir faktördür. 
+
+"Best Fit" stratejisi, mevcut boşluklar arasında en küçüğüne uygun olanı seçer. Bu, küçük boşlukların kullanılmasıyla büyük boşlukların oluşmasını önler ve dolayısıyla external fragmentationı azaltır. Ancak, bu strateji, boşlukları taramak için daha fazla zaman gerektirebilir.
+
+"First Fit" stratejisi, bellek blokları arasında ilk uygun boşluğu bulur ve kullanır. Bu, hızlı bir şekilde boşluk bulmayı sağlar ancak büyük boşlukların oluşmasına ve dolayısıyla external fragmentationın artmasına neden olabilir.
+
+"Next Fit" stratejisi, en son kullanılan boşluğun hemen ardından bir sonraki uygun boşluğu arar ve kullanır. Bu, işlemci zamanını azaltır ancak büyük boşlukların oluşmasına ve external fragmentationın artmasına yol açabilir.
+
+"Worst Fit" stratejisi ise, mevcut boşluklar arasından en büyüğünü seçer ve işlemi yerleştirir. Bu, daha küçük işlemler için genellikle büyük boşluklar oluşturur ve bu da bellekte harici parçalanmaya yol açabilir, dolayısıyla external fragmentationı artırabilir.
+
+Genellikle, "Best Fit" ve "First Fit" stratejileri arasında external fragmentation açısından belirgin farklılıklar görülür. Best Fit stratejisi genellikle external fragmentation açısından daha iyidir fakat daha fazla zaman alır. First Fit stratejisi ise genellikle external fragmentation açısından daha kötüdür.
